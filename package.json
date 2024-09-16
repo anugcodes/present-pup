@@ -1,0 +1,33 @@
+{
+  "name": "present-pup",
+  "version": "1.0.0",
+  "description": "PresentPup is a temporary file-sharing platform designed to help individuals securely upload and share presentation files, class notes, or documents with a short URL and passcode. It also offers features for managing presentation competitions, allowing teams to submit presentations and organizers to generate random presentation orders and sync data to Google Sheets.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anugcodes/present-pup.git"
+  },
+  "keywords": [
+    "file-sharing",
+    "temporary-files",
+    "presentation-management",
+    "document-sharing"
+  ],
+  "author": "Anurag Biswal",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/anugcodes/present-pup/issues"
+  },
+  "homepage": "https://github.com/anugcodes/present-pup#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
